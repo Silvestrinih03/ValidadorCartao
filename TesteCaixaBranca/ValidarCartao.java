@@ -20,7 +20,7 @@ public class ValidarCartao {
         }
 
         // 5
-        return ehElo() || ehVisa() || ehMastercard();
+        return ehVisa() || ehMastercard() || ehElo();
     }
 
     private boolean ehVisa() {
